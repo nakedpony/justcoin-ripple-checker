@@ -3,7 +3,18 @@ justcoin-ripple-checker
 
 Small tool to check that all money have reached juscoin wallet when they were sent from ripple.
 
-#How to use
+##Caution!
+It is an alfa software so it could work incorrectly. So better check every transaction yourself before start complaining to Justcoin.
+
+
+##How it works?
+This app gets all the transactions from Ripple network for particular account. It takes only outgoing transactions and filters them by destination tag. This information is public so you don't need to enter any of your credentials.
+
+On [Justcoin](https://justcoin.com) gateway it's possible to download CSV file with all the transactions [check this out](https://justcoin.com/client/#account/transactions). 
+
+So now you have transactions that you sent from Ripple to Justcoin and transactions that reached Justcoin. Now app can find all the transactions that didn't reach your Justcoin wallet. Voila!
+
+##How to use?
 1. To build execute: `mvn clean package`
 2. Modify the following attributes in settings.properties file: ripple.destination.tag, ripple.address, time.zone ([more info about timezone](http://joda-time.sourceforge.net/apidocs/org/joda/time/DateTimeZone.html#forID(java.lang.String))) , start and end time
 3. CD to target directory: `cd target`
