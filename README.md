@@ -18,6 +18,6 @@ example:
 23:08:57.461 [main] INFO  com.shinydev.Checker - 2014-08-23T13:51:50.000+02:00 TakerCurrency{currency=BTC, issuer=rJHygWcTLVpSXkowott6kzgZU6viQSVYM1, value=0.01170951} 77F8905129340B525442335870D62B09AE150CD166317630934018AFA6BC2CF4
 23:08:57.461 [main] INFO  com.shinydev.Checker - 2014-08-23T08:01:10.000+02:00 TakerCurrency{currency=XRP, issuer=null, value=0.17824} 0D2DEFE5AB1AA74E9202572E77E48C2EC8155715D48298B62DF3D6521AD64C3E
 ```
- 
+If you need extra info about ripple transaction feel free to modify Checker.java to print it.
 
 
